@@ -1,0 +1,21 @@
+{
+  "name": "is219_project_1",
+  "version": "1.0.0",
+  "description": "My First Node App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "keywords": [],
+  "author": "Vishal Tailor",
+  "email": "vdt5@njit.edu",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
+  }
+}
